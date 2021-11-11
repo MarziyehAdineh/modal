@@ -5,7 +5,7 @@ function App() {
   const [ openModal, setOpenModal] = useState(false);
   return (
     <div className="App">
-      <h1>سلام، روی دکمه کلیک کنید تا مدل باز شود</h1>
+      <h1>.سلام، روی دکمه کلیک کنید تا مدل باز شود</h1>
       <button
        className="openModalBtn"
        onClick={() => setOpenModal(true)}>
